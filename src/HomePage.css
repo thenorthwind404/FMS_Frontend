@@ -1,0 +1,41 @@
+/* Styles for the header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Styles for the main content */
+main {
+  padding: 20px;
+}
+
+.fuel-overview,
+.recent-trips,
+.fuel-report {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* Styles for the footer */
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+}

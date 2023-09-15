@@ -1,0 +1,499 @@
+/* Registration.css*/
+
+
+
+.registration-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 80vh;
+
+  background-color: white;
+
+}
+
+
+
+
+
+.registration-form input {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 30px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 3px;
+
+}
+
+
+
+.registration-form h2 {
+
+  margin-bottom: 30px;
+
+  color: #333;
+
+}
+
+
+
+/*.registration-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: #f4f4f4;
+
+}
+
+
+
+.registration-form {
+
+  background-color: #fff;
+
+  border-radius: 5px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  padding: 20px;
+
+  width: 300px;
+
+  text-align: center;
+
+}
+
+
+
+.registration-form h2 {
+
+  margin-bottom: 20px;
+
+  color: #333;
+
+}
+
+
+
+.registration-form input {
+
+  width: 80%;
+
+  padding: 10px;
+
+  margin-bottom: 15px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 3px;
+
+}
+
+
+
+.registration-form button {
+
+  width: 100%;
+
+  padding: 10px;
+
+  background-color: #e6ce1b;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 3px;
+
+  cursor: pointer;
+
+}
+
+
+
+.registration-form button:hover {
+
+  background-color: #0056b3;
+
+}
+
+
+
+.error-message {
+
+  color: #ff0000;
+
+  margin-bottom: 10px;
+
+} */
+
+
+
+/* Style for the registration container */
+
+
+
+.my-5 {
+
+
+
+  display: flex;
+
+
+
+  justify-content: center;
+
+
+
+  align-items: center;
+
+
+
+  height: 100vh;
+
+
+
+  background-color: #f4f4f4;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for the registration form card */
+
+
+
+.card {
+
+
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+
+
+  border-radius: 10px;
+
+
+
+  background-color: #ffffff;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for the registration form header */
+
+
+
+h2 {
+
+
+
+  text-align: center;
+
+
+
+  margin-bottom: 20px;
+
+
+
+  font-size: 2rem;
+
+
+
+  color: #007bff;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for success and error messages */
+
+
+
+.success-message,
+
+
+
+.error-message {
+
+
+
+  text-align: center;
+
+
+
+  margin-bottom: 20px;
+
+
+
+  font-weight: bold;
+
+
+
+  font-size: 1.2rem;
+
+
+
+}
+
+
+
+
+
+
+
+.success-message {
+
+
+
+  color: green;
+
+
+
+}
+
+
+
+
+
+
+
+.error-message {
+
+
+
+  color: red;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for the Register button */
+
+
+
+.btn-primary {
+
+
+
+  background-color: #007bff;
+
+
+
+  border-color: #007bff;
+
+
+
+  width: 100%;
+
+
+
+  font-size: 1.5rem;
+
+
+
+  padding: 10px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.btn-primary:hover {
+
+
+
+  background-color: #0056b3;
+
+
+
+  border-color: #0056b3;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for input fields */
+
+
+
+.input-group {
+
+
+
+  margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for card image */
+
+
+
+.card-img-top {
+
+
+
+  border-top-left-radius: 10px;
+
+
+
+  border-bottom-left-radius: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for the registration form columns */
+
+
+
+.d-flex.flex-column {
+
+
+
+  padding: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for icons */
+
+
+
+.icon {
+
+
+
+  color: #ff6219;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for responsive layout */
+
+
+
+@media (max-width: 767px) {
+
+
+
+  .card-img-top {
+
+
+
+    display: none;
+
+
+
+  }
+
+
+
+  .d-flex.flex-column {
+
+
+
+    padding: 10px;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+.hidden {
+
+
+
+  display: none;
+
+
+
+}
